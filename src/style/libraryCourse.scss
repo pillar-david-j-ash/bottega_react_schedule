@@ -2,12 +2,19 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, 1fr);
     grid-template-rows: 1fr 1fr;
+    background-color: cornflowerblue;
+    grid-row-gap: 22px;
 
-    &_title {
+    &_title-arrow {
         grid-row: 1/2;
+        display: flex;
     }
 
     &_description{
         grid-row: 2/3;
+    }
+
+    &_arrow {
+        grid-row: 1/2;
     }
 }
